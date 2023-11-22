@@ -1,7 +1,11 @@
-name: Flutter Test
+name: 🏥 Flutter Test
 
 on:
-    push:
+    pull_request:
+        types:
+            - reopened
+            - opened
+                        
 jobs:
   test:
     runs-on: ubuntu-latest

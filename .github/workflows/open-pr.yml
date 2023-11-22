@@ -1,4 +1,5 @@
-name: Pull Request Action
+name: 🔓 Checking PR Health
+
 on: create
       
 jobs:
